@@ -1,0 +1,45 @@
+#main-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 200px;
+  height: 200px;
+  background-color: #2B2E3A;
+  border-radius: 50%;
+  z-index: -1;
+}
+.electron{
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+
+}
+/* minus 60 deg */
+#el_m_60 {
+  position: absolute;
+  transform: rotate(-60deg);
+}
+/*plus 60 deg */
+#el_p_60 {
+  position: absolute;
+  transform: rotate(60deg);
+}
+.center-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #9FEAF9;
+  border-radius: 50%;
+  z-index: 1;
+}
+.oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 60px;
+  height: 150px;
+
+  border: solid 4px#9FEAF9;
+  border-radius: 50%
+}
